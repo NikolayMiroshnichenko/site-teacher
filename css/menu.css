@@ -84,7 +84,8 @@
 }
 .nav__item {
     display: block;
-    padding: 10px;
+    padding: 14px 10px;
+    font-weight: 500;
     text-decoration: none;
     color: #044EA3;
     border-bottom: 1px solid #044EA3;
