@@ -1,4 +1,6 @@
 @import './menu.css';
+@import './modal.css';
+
 
 body {
     margin: 0;
@@ -12,6 +14,7 @@ body {
 }
 .main {
     border-bottom: 1px solid #ededed;
+    margin-bottom: 20px;
 }
 .main-greeting {
     position: relative;
@@ -69,4 +72,114 @@ body {
     width: 220px;
     border-right: 20px solid #ff4242;
     opacity: 0.8;
+}
+.info-saite {
+    position: relative;
+    padding: 40px 20px;
+    border-right: 4px solid rgba(255, 66, 66,0.6);
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+.info-saite__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.info-saite__text {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+.info-saite__text span {
+    color: #044EA3;
+    font-weight: 600;
+}
+
+/* computer-programs */
+
+.page-title {
+    position: relative;
+    color: #044EA3;
+    font-weight: 500;
+    padding: 4px 0 4px 20px;
+    margin-bottom: 40px;
+}
+.page-title::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #ff4242;
+}
+.display-none {
+    display: none;
+}
+.computer-programs-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+.computer-programs-item {
+    display: flex;
+    margin-bottom: 80px;
+}
+.computer-programs-item__img {
+    width: 25%;
+    margin-right: 40px;
+}
+.computer-programs-item__img  img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.computer-programs-item__img a {
+    display: block;
+    width: 100%;
+    background-color: #044EA3;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.computer-programs-item__img a:hover {
+    background-color: #ff4242;
+    opacity: 0.7;
+}
+.computer-programs-item__content {
+    width: 70%;
+}
+
+/* BOOCKS */
+
+.boocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style-type: none;
+}
+.boocks-item {
+    width: 25%;
+    margin: 40px;
+}
+.boocks-item__img {
+    display: block;
+    width: 100%;
+}
+.boocks-item__link {
+    width: 100%;
+    display: block;
+    background-color: #044EA3;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.boocks-item__link:hover {
+    background-color: #ff4242;
+    opacity: 0.7;
 }
