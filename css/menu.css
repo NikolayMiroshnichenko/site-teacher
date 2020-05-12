@@ -123,3 +123,19 @@
     opacity: 1;
     transform: translateX(0%);
 }
+.attention-link {
+    position: relative;
+}
+.attention-link::before {
+    position: absolute;
+    content: "";
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/attention-link.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -291,3 +291,52 @@ table td {
     padding-left: 50px;
     background-color: #044EA3;
 }
+
+/* Distance learning */
+
+
+.distance-list {
+    display: flex;
+    justify-content: space-between;
+}
+.distance-list__item {
+    width: 20%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.distance-list__title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: #044EA3;
+    border-radius: 50%;
+    transition: all 0.3s;
+    box-shadow: 0 0 4px rgba(0,0,0,0.8);
+}
+.distance-list__title span {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 800;
+    transition: all 0.6s;
+}
+.distance-list__class {
+    text-align: center;
+    font-weight: 600;
+}
+.distance-list__item:hover {
+    transform: translateY(-5%);
+}
+.distance-list__item:hover .distance-list__title {
+    width: 120px;
+    height: 120px;
+    background-color: #ff4242;
+    opacity: 0.8;
+} 
+.distance-list__item:hover .distance-list__title span {
+    transform: rotate(-360deg);
+}
+
