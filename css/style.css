@@ -339,4 +339,68 @@ table td {
 .distance-list__item:hover .distance-list__title span {
     transform: rotate(-360deg);
 }
-
+.distance-container {
+    margin-bottom: 120px;
+}
+.distance-item__linck {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+    color: #044EA3;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.distance-item__linck::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/link.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.distance-video-list {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.distance-power__link,
+.distance-task__item,
+.distance-video-list__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding-left: 50px;
+    color: #044EA3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.distance-power__link::before,
+.distance-task__item::before,
+.distance-video-list__link::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 10px;
+    transform: translateY(-60%);
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/tv.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.distance-task__item::before {
+    background-image: url(../img/task.png);
+}
+.distance-power__link::before {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/powerpoint.png);
+}
