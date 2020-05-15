@@ -494,6 +494,9 @@ table td {
 .infprmatika-container__content a:hover {
     color: #ff4242;
 }
+.word-icon {
+    position: relative;
+}
 .infprmatika-container__content a::before {
     position: absolute;
     content: "";
@@ -506,6 +509,19 @@ table td {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+.word-icon::after {
+    position: absolute;
+    content: "";
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/word.png);
 }
 
 

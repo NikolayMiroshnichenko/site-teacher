@@ -24,6 +24,7 @@ const classContent = [
     {
         id: 1,
         template: `
+            <h2 class="page-title">5 клас</h2>
             <div class="infprmatika-container__item">
                 <div class="infprmatika-container__img">
                     <img src="img/5-class/information-systems/1.jpg" alt="">
@@ -72,32 +73,61 @@ const classContent = [
     {
         id: 2,
         template: `
-        <div class="distance-item">
+            <h2 class="page-title">6 клас</h2>
 
-            <h1 class="page-title">6 класс</h1>
-            <a href="https://miyklas.com.ua/" target="_blank" class="distance-item__linck">Сайт - Мій класс</a>
-            <a href="http://itknyga.com.ua/" target="_blank" class="distance-item__linck">Сайт відкритий доступ (на
-                час карантину)
-                до ІТ-книги.</a>
-            <div class="distance-video-list">
-                <h1 class="page-title">Відеоуроки:</h1>
-                <a href="https://www.youtube.com/watch?v=SzNBWtG6n-8&feature=youtu.be" target="_blank"
-                    class="distance-video-list__link">Вкладені цикли.</a>
-                <a href="https://www.youtube.com/watch?v=x5hasA5u9PI&feature=youtu.be" target="_blank"
-                    class="distance-video-list__link">Практична робота № 5. Проекти з вкладеними циклами.</a>
-                <a href="https://www.youtube.com/watch?v=m8anGNtkmjk&feature=youtu.be" target="_blank"
-                    class="distance-video-list__link">Вкладені розгалуження.</a>
-                <a href="https://www.youtube.com/watch?v=XfPpPgdvUq0&feature=youtu.be" target="_blank"
-                    class="distance-video-list__link">Вкладені цикли та розгалуження.</a>
-                <a href="https://www.youtube.com/watch?v=vaJgzg2Oqjg&feature=youtu.be" target="_blank"
-                    class="distance-video-list__link">Практична робота № 6. Проекти з вкладеними циклами та
-                    розгалуженнями.</a>
-                <a href="https://docs.google.com/forms/d/1HqiZO89eabkEye_SPJVe0p5CY47sjLc_-vRVX-64Z7M/closedform"
-                    target="_blank" class="distance-video-list__link">Підсумковий тест 6 клас</a>
-
-
+            <div class="infprmatika-container__item">
+                <div class="infprmatika-container__img">
+                    <img src="documents/algorithm/Algoritmi.jpg" alt="">
+                </div>
+                <div class="infprmatika-container__content">
+                    <a href="documents/algorithm/1.pptx">Об’єкти та події. Планування в нашому житті. Команди і
+                        виконавці</a>
+                    <a href="documents/algorithm/2.pptx">Алгоритми</a>
+                    <a href="documents/algorithm/3.pptx">Форми подання алгоритмів. Практична робота “Складання алгоритмів
+                        для виконавців у словесній
+                        формі і в графічному вигляді. Виконання алгоритмів”</a>
+                    <a href="documents/algorithm/4.pptx">Середовище виконання алгоритму</a>
+                    <a href="documents/algorithm/5.pptx">Виконавці і події в середовищі Скретч</a>
+                    <a href="documents/algorithm/6.pptx">Складання та виконання алгоритмів</a>
+                    <a href="documents/algorithm/7.docx" class="word-icon">Практична робота «Складання алгоритмів
+                        опрацювання
+                        подій з
+                        використання структури слідування
+                        та виконання їх у визначеному навчальному середовищі виконання алгоритмів»</a>
+                </div>
             </div>
-        </div>
+            <div class="infprmatika-container__item">
+                <div class="infprmatika-container__img">
+                    <img src="documents/os/os.jpg" alt="">
+                </div>
+                <div class="infprmatika-container__content">
+                    <a href="documents/os/1.pptx">Операційна система. Графічний інтерфейс операційної системи</a>
+                    <a href="documents/os/1.pptx">Файлова система та її об’єкти</a>
+                    <a href="documents/os/1.pptx">Операції над об’єктами файлової системи</a>
+                </div>
+            </div>
+            <div class="infprmatika-container__item">
+                <div class="infprmatika-container__img">
+                    <img src="documents/сomputer-network/1.jpg" alt="">
+                </div>
+                <div class="infprmatika-container__content">
+                    <a href="documents/сomputer-network/1.pptx">Комп’ютерні мережі та їх призначення. Поняття про мережну
+                        взаємодію. Типи комп’ютерних
+                        мереж.</a>
+                    <a href="documents/сomputer-network/1.pptx">Поняття користувача й сеансу користувача; вхід у локальну
+                        мережу. Локальна мережа навчального
+                        закладу. Робота з мережними папками.</a>
+                    <a href="documents/сomputer-network/1.pptx">Поняття про глобальну мережу Інтернет. Основні служби
+                        Інтернету. Поняття Всесвітнього
+                        павутиння. Поняття веб-сайту, веб-сторінки, її адреси. Гіперпосилання.</a>
+                    <a href="documents/сomputer-network/1.pptx">Робота з веб-браузером. Використання, створення та
+                        редагування списку сайтів, обраних для
+                        швидкого доступу. Аналіз інформаційних матеріалів, знайдених в Інтернеті.</a>
+                    <a href="documents/сomputer-network/1.pptx">Алгоритм організації пошуку інформаційних матеріалів в
+                        Інтернеті. Простий пошук. Правила
+                        безпечного користування Інтернетом при пошуку інформаційних матеріалів.</a>
+                </div>
+            </div>
         `
     },
     {
@@ -106,6 +136,38 @@ const classContent = [
         <div class="distance-item">
 
             <h1 class="page-title">7 класс</h1>
+            <div class="infprmatika-container__item">
+                <div class="infprmatika-container__img">
+                    <img src="documents/os/os.jpg" alt="">
+                </div>
+                <div class="infprmatika-container__content">
+                    <a href="documents/os/1.pptx">Операційна система. Графічний інтерфейс операційної системи</a>
+                    <a href="documents/os/1.pptx">Файлова система та її об’єкти</a>
+                    <a href="documents/os/1.pptx">Операції над об’єктами файлової системи</a>
+                </div>
+            </div>
+            <div class="infprmatika-container__item">
+                <div class="infprmatika-container__img">
+                    <img src="documents/сomputer-network/1.jpg" alt="">
+                </div>
+                <div class="infprmatika-container__content">
+                    <a href="documents/сomputer-network/1.pptx">Комп’ютерні мережі та їх призначення. Поняття про мережну
+                        взаємодію. Типи комп’ютерних
+                        мереж.</a>
+                    <a href="documents/сomputer-network/1.pptx">Поняття користувача й сеансу користувача; вхід у локальну
+                        мережу. Локальна мережа навчального
+                        закладу. Робота з мережними папками.</a>
+                    <a href="documents/сomputer-network/1.pptx">Поняття про глобальну мережу Інтернет. Основні служби
+                        Інтернету. Поняття Всесвітнього
+                        павутиння. Поняття веб-сайту, веб-сторінки, її адреси. Гіперпосилання.</a>
+                    <a href="documents/сomputer-network/1.pptx">Робота з веб-браузером. Використання, створення та
+                        редагування списку сайтів, обраних для
+                        швидкого доступу. Аналіз інформаційних матеріалів, знайдених в Інтернеті.</a>
+                    <a href="documents/сomputer-network/1.pptx">Алгоритм організації пошуку інформаційних матеріалів в
+                        Інтернеті. Простий пошук. Правила
+                        безпечного користування Інтернетом при пошуку інформаційних матеріалів.</a>
+                </div>
+            </div>
             <div class="distance-video-list">
                 <h1 class="page-title">Відеоуроки:</h1>
                 <a href="https://www.youtube.com/watch?v=OBYbngMYwDQ&feature=youtu.be" target="_blank"
