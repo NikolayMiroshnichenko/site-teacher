@@ -330,12 +330,6 @@ table td {
 .distance-list__item:hover {
     transform: translateY(-5%);
 }
-.distance-list__item:hover .distance-list__title {
-    width: 120px;
-    height: 120px;
-    background-color: #ff4242;
-    opacity: 0.8;
-} 
 .distance-list__item:hover .distance-list__title span {
     transform: rotate(-360deg);
 }

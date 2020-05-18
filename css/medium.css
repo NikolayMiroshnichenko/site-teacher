@@ -1,0 +1,152 @@
+@media (max-width: 1240px) {
+    .container {
+        width: 320px;
+    }
+    .menu {
+        top: none;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-mail-btn,
+    .main-btn,
+    .menu-btn {
+        border-bottom: none;
+    }
+    .main-mail-btn:hover,
+    .main-btn:hover,
+    .menu-btn:hover {
+        border-bottom: none;
+        background: none;
+    }
+    .nav {
+        width: 80%;
+        z-index: 999;
+    }
+    .main {
+        padding: 100px 0 0 0;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .main-greeting {
+        font-size: 28px;
+    }
+    .main-content {
+        flex-direction: column-reverse;
+    }
+    .main-content__item,
+    .main-content__img {
+        width: 100%;
+    }
+    .main-content__item-btn {
+        display: block;
+        margin: 0 auto;
+    }
+    .info-saite {
+        padding: 20px 10px;
+        border-right: 2px solid #ff4242;
+    }
+    .school-desing {
+        position: static;
+        width: 200px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .school {
+        border-left: 2px solid rgba(255, 66, 66,0.6);
+    }
+    .computer-programs {
+        padding-top: 100px;
+    }
+    .computer-programs-item {
+        flex-direction: column-reverse;
+    }
+    .computer-programs-item__img,
+    .computer-programs-item__content {
+        width: 100%;
+        margin-bottom: 20PX;
+    }
+    .boocks {
+        flex-direction: column;
+    }
+    .boocks-item {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 80px;
+    }
+    .evaliation {
+        padding-top: 100px;
+    }
+    table {
+        width: 100%;
+    }
+    table th,
+    table td {
+        padding: 10px;
+    } 
+    .test-list {
+        flex-direction: column-reverse;
+    }
+    .test-desing {
+        position: static;
+        transform: translateY(0);
+    }
+    .test-item {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .distance-list__item {
+        width: 15%;
+    }
+    .distance-list__title {
+        width: 60px;
+        height: 60px;
+    }
+    .distance-list__class {
+        display: none;
+    }
+    .distance-list__item:hover .distance-list__title {
+        width: 50px;
+        height: 50px;
+        background-color: #ff4242;
+    }
+    .distance-list__item:hover {
+        transform: translateY(0);
+    }
+    .infprmatika-container {
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    .informatica-nav {
+        width: 100%;
+        display: flex;
+        top: 88%;
+        height: 12vh;
+    }
+    .informatica-nav__item {
+        width: 20%;
+        height: 12vh;
+        border-right: 1px solid #ffffff;
+    }
+    .infprmatika-container__item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .infprmatika-container__img {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .infprmatika-container__content {
+        width: 80%;
+    }
+    .modal {
+        width: 80%;
+    }
+
+}
